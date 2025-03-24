@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Price Monitor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Crypto Price Monitor</h1>
+            <div class="header-actions">
+                <div class="theme-toggle">
+                    <input type="checkbox" id="dark-mode-toggle">
+                    <label for="dark-mode-toggle" class="theme-toggle-label">
+                        <i class="fas fa-moon"></i>
+                        <i class="fas fa-sun"></i>
+                    </label>
+                </div>
+            </div>
+        </header>
+
+        <div class="controls">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search cryptocurrencies...">
+                <i class="fas fa-search"></i>
+            </div>
+
+            <div class="filter-container">
+                <select id="crypto-filter">
+                    <option value="all">All Cryptos</option>
+                    <option value="top10">Top 10 Cryptos</option>
+                    <option value="stablecoins">Stablecoins Only</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loading-indicator" class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading crypto data...</p>
+        </div>
+
+        <div id="error-message" class="error-container hidden">
+            <p>Unable to fetch cryptocurrency data. Please try again later.</p>
+        </div>
+
+        <div id="crypto-table-container" class="table-container hidden">
+            <table id="crypto-table">
+                <thead>
+                    <tr>
+                        <th data-sort="rank">#Rank</th>
+                        <th data-sort="name">Name</th>
+                        <th data-sort="price">Price</th>
+                        <th data-sort="change24h">24h Change</th>
+                        <th data-sort="marketcap">Market Cap</th>
+                    </tr>
+                </thead>
+                <tbody id="crypto-table-body">
+                    <!-- Crypto data will be dynamically inserted here -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
