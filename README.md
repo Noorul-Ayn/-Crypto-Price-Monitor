@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Crypto Price Monitor is a dynamic, real-time web application designed to provide users with up-to-date cryptocurrency market information. The application fetches live data from the CoinGecko API, offering comprehensive insights into cryptocurrency prices, market capitalization, and 24-hour price changes.
+The Crypto Price Monitor is a web-based application that provides real-time cryptocurrency market data. It fetches price, market cap, and percentage changes from the CoinGecko API and presents the data in a user-friendly table format. The app includes features such as search, filtering, sorting, and a dark mode toggle for better user experience.
 
 ## 🎯 Purpose and Value
 
@@ -133,4 +133,4 @@ http {
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
-Project Link: [https://github.com/yourusername/crypto-price-monitor](https://github.com/yourusername/crypto-price-monitor)
+Project Link: [https://github.com/Noorul-Ayn/crypto-price-monitor](https://github.com/Noorul-Ayn/crypto-price-monitor)
