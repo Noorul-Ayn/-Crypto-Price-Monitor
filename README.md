@@ -1,5 +1,9 @@
 # 🚀 Crypto Price Monitor
 
+## Demo Video Link>>> https://youtu.be/h8ekK74F_QY
+
+## Domain name>> https://www.hauwa.tech/
+
 ## Project Overview
 
 The Crypto Price Monitor is a web-based application that provides real-time cryptocurrency market data. It fetches price, market cap, and percentage changes from the CoinGecko API and presents the data in a user-friendly table format. The app includes features such as search, filtering, sorting, and a dark mode toggle for better user experience.
